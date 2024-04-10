@@ -1,5 +1,50 @@
 @media screen and (max-width: 800px) {
     .header{
-        margin-top: 10px !important;
+        margin-top: 30px !important;
+    }
+    header input{
+        background: #F0F1F6;
+        padding: 35px;
+    }
+    .timer{
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+     .text-center_2{
+        justify-content: space-between;
+        margin-left: 20px;
+        border: 2px solid black;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .text-sm{
+        margin-top: 10px;
+    }
+  
+}
+
+@media screen and (min-width: 800px){
+    .timer{
+        margin-top: -15rem;
+        margin-left: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    header input{
+        background: #F0F1F6;
+        height: 10vh;
+    }
+    .text-center_2{
+        justify-content: space-between;
+        margin-left: 20px;
+        border: 2px solid black;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    .text-sm{
+        margin-left: 19px;
+        margin-top: 10px;
     }
 }
